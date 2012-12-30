@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Robi.Boden" Collapsed="true">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Boden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Element" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABAAIIkECAkYBAAAgIAAAAERACDEEAQBAAEYUQ=</HashCode>
+      <FileName>Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Elementbild" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Elementbild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Richtung" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Richtung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.RichtungNorden" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RichtungNorden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.RichtungOsten" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RichtungOsten.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.RichtungSueden" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RichtungSueden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.RichtungWesten" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAACAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RichtungWesten.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.RobiDialog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAQCIgMAABAQCAAAgCAwAAAAgACAAADIAAAAU=</HashCode>
+      <FileName>RobiDialog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Robi.Roboter" Collapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAIAAAAAAAAAAAAIAAAgCgAAAIIAAAAAAAAAAA=</HashCode>
+      <FileName>Roboter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Welt" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ALAAAAAAAAAgAACAAAAAQAQAAABAAICAAAAECAEAAAA=</HashCode>
+      <FileName>Welt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Werkzeug" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Werkzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Properties.Resources" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAACAgAAAAAAFEABAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Gegenstand" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gegenstand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Fels" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Fliessband" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Fliessband.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Akteur" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Akteur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.DrehendesZahnrad" Collapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>DrehendesZahnrad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Robi.IElementBeobachter" Collapsed="true">
+    <Position X="8" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>IElementBeobachter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
