@@ -59,15 +59,15 @@
   <Class Name="Robi.RobiDialog" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="8.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAQCIgMAABAQCAAAgCAwAAAAgACAAADIAAAAU=</HashCode>
+      <HashCode>AEAAAAAAUCIgMAABAQCAAAgCAwAAAAgACAAADIAAAAU=</HashCode>
       <FileName>RobiDialog.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Robi.Roboter" Collapsed="true">
+  <Class Name="Robi.Roboter">
     <Position X="4.5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAKBIAAAAAAAAAAAAIAAAgCgAAAAIAAAAAAAAAAA=</HashCode>
+      <HashCode>IgAAAKBIAAAAAAAAAAAAIAAAgCgAAAAIAAAAQAAAAAA=</HashCode>
       <FileName>Roboter.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -127,14 +127,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.EinfacherRoboter" Collapsed="true">
-    <Position X="3.5" Y="6" Width="1.5" />
+    <Position X="2.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>EinfacherRoboter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.Sammler" Collapsed="true">
-    <Position X="5.25" Y="6" Width="1.5" />
+    <Position X="6.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Sammler.cs</FileName>

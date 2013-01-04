@@ -66,6 +66,16 @@ namespace Robi
             return ElementeVorMir().Find(el => el is Fels) != null;
         }
 
+        public Boolean FelsLinks()
+        {
+            return ElementeLinksVonMir().Find(el => el is Fels) != null;
+        }
+
+        public Boolean FelsRechts()
+        {
+            return ElementeRechtsVonMir().Find(el => el is Fels) != null;
+        }
+
         override public void Aktion()
         {
         }
