@@ -65,12 +65,6 @@ namespace Robi
             return new Position(pixelKoordinaten.X / iSchrittweiteX, pixelKoordinaten.Y / iSchrittweiteY);
         }
 
-        public bool ElementAnStelle(Element element, Position pPosition)
-        {
-            return ElementeAnStelle(pPosition).FindAll(el =>
-                el.GetType().Equals(element.GetType())).Count > 0;
-        }
-
         public bool EnthaeltPosition(Position point)
         {
             return point.X() >= 0

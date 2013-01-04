@@ -19,9 +19,15 @@ namespace Robi
             // Der Dialog wird mit der Zeichenfläche und seinen Komponenten initialisiert.
             InitializeComponent();
 
+            WeltErzeugen();
+        }
+
+        private void WeltErzeugen()
+        {
+            // Die Welt wird erstellt
             welt = Welt.ErzeugeBeispielwelt();
-            
-            robi = new Roboter("Robi");            
+
+            robi = new Sammler();
             robi.BewegeNach(1, 1);
             robi.FuegeBeobachterHinzu(this);
             welt.FuegeElementHinzu(robi);

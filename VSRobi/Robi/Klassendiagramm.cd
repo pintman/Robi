@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.RobiDialog" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="8" Y="5" Width="1.5" />
+    <Position X="8.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAQCIgMAABAQCAAAgCAwAAAAgACAAADIAAAAU=</HashCode>
       <FileName>RobiDialog.cs</FileName>
@@ -67,14 +67,14 @@
   <Class Name="Robi.Roboter" Collapsed="true">
     <Position X="4.5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAKAIAAAAAAAAAAAAIAAAgCgAAAIIAAAAAAAAAAA=</HashCode>
+      <HashCode>IAAAAKBIAAAAAAAAAAAAIAAAgCgAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>Roboter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.Welt" Collapsed="true">
     <Position X="1" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ALAAAAAAAAAgAACAAAAAQAQAAABAAICAAAAECAEAAAA=</HashCode>
+      <HashCode>ADAAAAAAAAAgAACAAAAAQAQAAABAAICAAAAECAEAAAA=</HashCode>
       <FileName>Welt.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -108,26 +108,40 @@
   <Class Name="Robi.Fliessband" Collapsed="true">
     <Position X="6.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Fliessband.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.Akteur" Collapsed="true">
     <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Akteur.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Robi.DrehendesZahnrad" Collapsed="true">
-    <Position X="6.25" Y="6" Width="1.5" />
+    <Position X="8" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DrehendesZahnrad.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Robi.EinfacherRoboter" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EinfacherRoboter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Robi.Sammler" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sammler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Robi.IElementBeobachter" Collapsed="true">
-    <Position X="8" Y="4" Width="1.75" />
+    <Position X="8.25" Y="2.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>IElementBeobachter.cs</FileName>

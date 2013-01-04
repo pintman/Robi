@@ -53,7 +53,7 @@ namespace Robi
 
         public Boolean ElementHier(Element el)
         {
-            return welt.ElementAnStelle(el, pPosition);
+            return SucheElementeVomTyp(el).Count > 0;
         }
 
         public List<Element> ElementeHier()
@@ -77,9 +77,9 @@ namespace Robi
         }
 
         public List<Element> SucheElementeVomTyp(Element element)
-        {
+        {            
             return welt.ElementeAnStelle(pPosition).FindAll(el =>
-                element.GetType().IsInstanceOfType(el));
+                element.GetType().IsAssignableFrom(el.GetType()));
         }
 
         public void EntferneAusWelt()

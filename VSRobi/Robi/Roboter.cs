@@ -17,7 +17,7 @@ namespace Robi
         {
             // Den Roboter mit dem Bild erstellen
             // Bei der Erstellung muss für den Roboter ein Bild hinterlegt werden. Dies ist eine 
-            // JPG-Datei im Projekt, die über Robi.Properties.Resources.robot zugegriffen werden kann.
+            // Bild-Datei im Projekt, die über Robi.Properties.Resources.robot zugegriffen werden kann.
             // Diese wurde zuvor in den Projekeigentschaften angemeldet
 
             SetzeName(name);
@@ -49,6 +49,13 @@ namespace Robi
             ElementHatEtwasGesagt(text);
         }
 
+        public String MeinInventar()
+        {
+            String sInventar = "";
+            inventar.ForEach(inv => sInventar += inv.ToString() + " ");
+            return sInventar;
+        }
+
         public Boolean WerkzeugVorMir()
         {
             return ElementeVorMir().Find(el => el is Werkzeug) != null;
@@ -61,20 +68,6 @@ namespace Robi
 
         override public void Aktion()
         {
-            if (!FelsVorMir())
-            {
-                GeheVor();
-            }
-            if (WerkzeugVorMir())
-            {
-                Sage("Ein Werkzeug ist vor mir");
-            }
-            if (WerkzeugHier())
-            {
-                NimmAlleAuf(SucheGegenstaende());
-                Sage("Werkzeug genommen");                
-                inventar.ForEach(inv => Sage(inv.ToString()));
-            }
         }
 
         public List<Gegenstand> SucheGegenstaende()
