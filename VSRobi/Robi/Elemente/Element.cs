@@ -140,7 +140,7 @@ namespace Robi
         {
             richtung = richtung.RichtungRechts();
 
-            // Das Roboterbild aktualisieren.
+            // Das Elementbild aktualisieren.
             bild.DrehenRechts();
             ElementHatPositionGeaendert();
         }
@@ -149,7 +149,7 @@ namespace Robi
         {
             richtung = richtung.RichtungLinks();
 
-            // Das Roboterbild aktualisieren.
+            // Das Elementbild aktualisieren.
             bild.DrehenLinks();
             ElementHatPositionGeaendert();
         }

@@ -86,7 +86,7 @@
     <Compile Include="Boden.cs" />
     <Compile Include="Fels.cs" />
     <Compile Include="DrehendesZahnrad.cs" />
-    <Compile Include="Sammler.cs" />
+    <Compile Include="Roboter\Sammler.cs" />
     <Compile Include="Welt.cs" />
     <Compile Include="Werkzeug.cs" />
     <EmbeddedResource Include="RobiDialog.resx">

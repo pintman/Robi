@@ -57,6 +57,9 @@ namespace Robi
             return new Point(punkt.X() * iSchrittweiteX, punkt.Y() * iSchrittweiteY);
         }
 
+        /// <summary>
+        /// Transformiert Pixel-Koordinaten in logische Koordinaten.
+        /// </summary>
         public Position TransformierePixelKoordinaten(Graphics g, Point pixelKoordinaten)
         {
             int iSchrittweiteX = Convert.ToInt32(g.VisibleClipBounds.Width / this.iBreite);
